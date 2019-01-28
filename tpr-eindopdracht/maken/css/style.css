@@ -1,0 +1,271 @@
+.navigatie {
+  display: grid;
+  grid-template-columns: 0.01fr 1fr 0.05fr;
+  background-color: red;
+  font-family: century;
+}
+
+#img {
+  height: 560px;
+  width: 560px;
+}
+
+.button {
+  border: none;
+  background-color: red;
+}
+
+h1 {
+  text-align: center;
+}
+
+header img {
+  height: 81px;
+  width: 81px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 20vw 20vw;
+  float: left;
+}
+
+#kopen {
+  border-radius: 20px;
+  background-color: white;
+  font-size: 40px;
+  padding: 20px 30px;
+  border: 2px solid #e67300;
+  transition-duration: 0.5s;
+  display: block;
+  margin: 10px auto 0px auto;
+}
+
+#kopen:hover {
+  border-radius: 20px;
+  background-color: #e67300;
+  font-size: 40px;
+  padding: 20px 30px;
+}
+
+#right {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#keuze {
+  margin: 10px auto 0px auto;
+  font-size: 40px;
+  color: red;
+  background-color: orange;
+}
+
+.radio {
+  width: 100px;
+  height: 50px;
+  display: block;
+  margin: 10px auto 0px auto;
+}
+
+#rood {
+  background-color: red;
+}
+
+#blauw {
+  background-color: blue;
+}
+
+#geel {
+  background-color: yellow;
+}
+
+#groen {
+  background-color: green;
+}
+
+#kleuren {
+  margin: 10px auto 0px auto;
+  font-size: 40px;
+}
+
+@media screen and (min-width: 38em) {
+  .navigatie {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr 0.05fr;
+    background-color: red;
+    font-family: century;
+  }
+
+  .button {
+    border: none;
+    background-color: red;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  header img {
+    height: 81px;
+    width: 81px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 20vw 20vw;
+  }
+
+  #kopen {
+    border-radius: 20px;
+    background-color: white;
+    font-size: 40px;
+    padding: 20px 30px;
+    border: 2px solid #e67300;
+    transition-duration: 0.5s;
+    display: block;
+    margin: 10px auto 0px auto;
+  }
+
+  #kopen:hover {
+    border-radius: 20px;
+    background-color: #e67300;
+    font-size: 40px;
+    padding: 20px 30px;
+  }
+
+  #right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+  }
+
+  #keuze {
+    display: block;
+    margin: 10px auto 0px auto;
+    font-size: 40px;
+    color: red;
+    background-color: orange;
+  }
+
+  .radio {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 10px auto 0px auto;
+  }
+
+  #rood {
+    background-color: red;
+  }
+
+  #blauw {
+    background-color: blue;
+  }
+
+  #geel {
+    background-color: yellow;
+  }
+
+  #groen {
+    background-color: green;
+  }
+
+  #kleuren {
+    margin: 10px auto 0px auto;
+    font-size: 40px;
+  }
+}
+
+/* computer */
+
+
+@media screen and (min-width: 60em) {
+
+  .navigatie {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr 0.05fr;
+    background-color: red;
+    font-family: century;
+  }
+
+  .button {
+    border: none;
+    background-color: red;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  header img {
+    height: 81px;
+    width: 81px;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #kopen {
+    border-radius: 20px;
+    background-color: white;
+    font-size: 40px;
+    padding: 20px 30px;
+    border: 2px solid #e67300;
+    transition-duration: 0.5s;
+    display: block;
+    margin: 10px auto 0px auto;
+  }
+
+  #kopen:hover {
+    border-radius: 20px;
+    background-color: #e67300;
+    font-size: 40px;
+    padding: 20px 30px;
+  }
+
+  #right {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  #keuze {
+    display: block;
+    margin: 10px auto 0px auto;
+    font-size: 40px;
+    color: red;
+    background-color: orange;
+  }
+
+  .radio {
+    width: 100px;
+    height: 50px;
+    display: block;
+    margin: 10px auto 0px auto;
+  }
+
+  #rood {
+    background-color: red;
+  }
+
+  #blauw {
+    background-color: blue;
+  }
+
+  #geel {
+    background-color: yellow;
+  }
+
+  #groen {
+    background-color: green;
+  }
+
+  #kleuren {
+    margin: 10px auto 0px auto;
+    font-size: 40px;
+  }
+}

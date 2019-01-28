@@ -1,0 +1,96 @@
+/* telefoon */
+
+
+.navigatie {
+  display: grid;
+  grid-template-columns: 0.01fr 1fr 0.05fr;
+  background-color: red;
+  font-family: century;
+}
+
+h1 {
+  text-align: center;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+section img {
+  height: 150px;
+  width: 150px;
+}
+
+header img {
+  height: 81px;
+  width: 81px;
+}
+
+
+/* tablet */
+
+
+@media screen and (min-width: 38em) {
+  .navigatie {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr 0.05fr;
+    background-color: red;
+    font-family: century;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  section img {
+    height: 150px;
+    width: 150px;
+  }
+
+  header img {
+    height: 81px;
+    width: 81px;
+  }
+}
+
+
+/* computer */
+
+
+@media screen and (min-width: 60em) {
+  .navigatie {
+    display: grid;
+    grid-template-columns: 0.01fr 1fr 0.05fr;
+    background-color: red;
+    font-family: century;
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  section img {
+    height: 150px;
+    width: 150px;
+  }
+
+  header img {
+    height: 81px;
+    width: 81px;
+  }
+
+}

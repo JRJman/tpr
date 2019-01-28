@@ -1,0 +1,40 @@
+.navigatie {
+  display: grid;
+  grid-template-columns: 0.01fr 1fr 0.05fr;
+  background-color: red;
+  font-family: century;
+}
+
+.button {
+  border: none;
+  background-color: red;
+}
+
+header img {
+  height: 81px;
+  width: 81px;
+}
+
+.img {
+  height: 200px;
+  width: 200px;
+}
+
+.pakketjes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.center {
+  text-align: center;
+}
+
+#button {
+  margin: auto;
+  margin-top: 50px;
+  font-size: 40px;
+  display: block;
+  background-color: red;
+  border-radius: 20px;
+  padding: 20px 30px;
+}
